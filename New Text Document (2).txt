@@ -1,0 +1,30 @@
+conda create -p venv python==3.8 -y     # to create new environment
+create readme.md file
+conda activate venv/
+
+python setup.py install
+create git hub reprosetery project01
+git init
+create READMI.md file
+git add README.md
+git commit -m "first commit"
+
+This type of message will come
+
+[master (root-commit) dfe0669] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+git branch -M main
+git remote add origin https://github.com/rohitsainissn/project01.git
+git push -u origin main
+create requirements.txt with numpy & -e .
+create setup.py
+create src folder having __init__.py
+
+pip install -r requirements.txt
+pip install .    # this will install setup.py
+
+
+git add .
+git status # to know status of file change
+git push -u origin main
